@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Thing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\Brandon\Desktop\Research\XML\Thing_XML.xsd">
+	<Object>
+		<FunctionalProperties>
+			<objectName>Computer HWT50112</objectName>
+			<brand>Dell</brand>
+			<model>Envy 11223-cv3</model>
+			<objectDescription>Computer Usage Availability</objectDescription>
+		</FunctionalProperties>
+		<Non-FunctionalProperties>
+			<contextOfObject>
+				<tag>No</tag>
+				<description>Computer Available</description>
+			</contextOfObject>
+			<propertiesOfObject>
+				<tag>School</tag>
+				<description>Penn State Behrend</description>
+				<tag>Building</tag>
+				<description>Burke</description>
+				<tag>Floor</tag>
+				<description>Third Floor</description>
+				<tag>Room</tag>
+				<description>206</description>
+				<tag>Printer</tag>
+				<description>False</description>
+				<tag>Dual Monitor</tag>
+				<description>False</description>
+			</propertiesOfObject>
+		</Non-FunctionalProperties>
+	</Object>
+	<Service/>
+	<searchTags>
+		<tag>Computer</tag>
+		<tag>Available</tag>
+		<tag>Homework</tag>
+		<tag>Study</tag>
+		<tag>Lecture</tag>
+	</searchTags>
+</Thing>
+

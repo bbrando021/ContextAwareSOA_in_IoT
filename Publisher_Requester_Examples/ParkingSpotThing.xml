@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Thing xsi:noNamespaceSchemaLocation="C:\Users\Brandon\Desktop\Research\XML\Thing_XML.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Object>
+		<FunctionalProperties>
+			<objectName>Randy's Parking Lot - Space 12</objectName>
+			<brand>Accu-right Sensor</brand>
+			<model>12vb-light</model>
+			<objectDescription>Full size parking spot</objectDescription>
+		</FunctionalProperties>
+		<Non-FunctionalProperties>
+			<contextOfObject>
+				<tag>Yes</tag>
+				<description>Spot Open</description>
+			</contextOfObject>
+			<propertiesOfObject>
+				<tag>Spot Size</tag>
+				<description>Regular</description>
+				<tag>Covered</tag>
+				<description>Yes</description>
+				<tag>Access</tag>
+				<description>Parking Pass</description>
+
+			</propertiesOfObject>
+		</Non-FunctionalProperties>
+	</Object>
+	<Service>
+		<FunctionalProperties>
+			<serviceName>Parking Spot Finder</serviceName>
+			<serviceDescription>This service directs you to the parking spot</serviceDescription>
+			<input>
+				<name>Location</name>
+				<type>Requesters Coordinates</type>
+				<name>vehicle Info</name>
+				<type>Type of Car</type>
+			</input>
+			<output>Routes to Spot</output>
+		</FunctionalProperties>
+		<Non-FunctionalProperties>
+			<cost>0.25</cost>
+			<contextOfService>
+				<tag>Location</tag>
+				<description>Coordinates of Spot</description>
+			</contextOfService>
+			<constraints>
+				<interoperability>
+					<boolean>false</boolean>
+					<otherServiceName></otherServiceName>
+				</interoperability>
+				<security>User must make account and enter credientials before using service</security>
+				<scalability>1</scalability>
+				<performance>
+					<time>24</time>
+					<units>minutes</units>
+				</performance>
+				<availability>99.9</availability>
+				<accessibility>https://play.google.com/store/apps/details?id=parking_spot</accessibility>
+			</constraints>
+		</Non-FunctionalProperties>
+	</Service>
+	<searchTags>
+		<tag>Parking</tag>
+		<tag>Car</tag>
+		<tag>Parking Lot</tag>
+		<tag>Space</tag>
+		<tag>Available</tag>
+		<tag>Navigation</tag>
+	</searchTags>
+</Thing>

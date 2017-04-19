@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Requester xsi:noNamespaceSchemaLocation="C:\Users\Brandon\Desktop\Research\Requester_XML.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<nonFunctionalProperties>
+		<cost>0.00</cost>
+		<contextOfRequester>
+			<tag>School</tag>
+			<description>Penn State Behrend</description>
+			<tag>Building</tag>
+			<description>Burke</description>
+			<tag>Floor</tag>
+			<description>2</description>
+			<tag>Room</tag>
+			<description>212</description>
+		</contextOfRequester>
+		<constraints>
+			<interoperability weight="1"/>
+			<security weight="6"/>
+			<scalability weight="4"/>
+			<performance weight="5"/>
+			<availability weight="9"/>
+			<accessibility weight="3"/>
+		</constraints>
+	</nonFunctionalProperties>
+	<searchTags>
+	<tag>Projector</tag>
+	<tag>Study</tag>
+	<tag>Class</tag>
+	<tag>Classroom</tag>
+	<tag>Available</tag>
+	<tag>Availability</tag>
+	<tag>Open</tag>
+	<tag>Room</tag>
+	<tag>Computer</tag>
+	</searchTags>
+</Requester>

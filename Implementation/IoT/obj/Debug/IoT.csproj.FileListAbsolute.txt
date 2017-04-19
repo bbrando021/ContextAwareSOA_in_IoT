@@ -1,0 +1,13 @@
+C:\Users\Brandon\Documents\Visual Studio 2015\Projects\IoT\IoT\bin\Debug\IoT.exe.config
+C:\Users\Brandon\Documents\Visual Studio 2015\Projects\IoT\IoT\bin\Debug\IoT.exe
+C:\Users\Brandon\Documents\Visual Studio 2015\Projects\IoT\IoT\bin\Debug\IoT.pdb
+C:\Users\Brandon\Documents\Visual Studio 2015\Projects\IoT\IoT\obj\Debug\IoT.csprojResolveAssemblyReference.cache
+C:\Users\Brandon\Documents\Visual Studio 2015\Projects\IoT\IoT\obj\Debug\IoT.Properties.Resources.resources
+C:\Users\Brandon\Documents\Visual Studio 2015\Projects\IoT\IoT\obj\Debug\IoT.csproj.GenerateResource.Cache
+C:\Users\Brandon\Documents\Visual Studio 2015\Projects\IoT\IoT\obj\Debug\IoT.exe
+C:\Users\Brandon\Documents\Visual Studio 2015\Projects\IoT\IoT\obj\Debug\IoT.pdb
+C:\Users\Brandon\Documents\Visual Studio 2015\Projects\IoT\IoT\obj\Debug\IoT.UploadThing.resources
+C:\Users\Brandon\Documents\Visual Studio 2015\Projects\IoT\IoT\obj\Debug\IoT.UploadRequest.resources
+C:\Users\Brandon\Documents\Visual Studio 2015\Projects\IoT\IoT\obj\Debug\IoT.MainForm.resources
+C:\Users\Brandon\Documents\Visual Studio 2015\Projects\IoT\IoT\obj\Debug\IoT.UploadSchema.resources
+C:\Users\Brandon\Documents\Visual Studio 2015\Projects\IoT\IoT\obj\Debug\IoT.DisplayThing.resources

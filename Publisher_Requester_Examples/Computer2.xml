@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Thing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\Brandon\Desktop\Research\XML\Thing_XML.xsd">
+	<Object>
+		<FunctionalProperties>
+			<objectName>Computer Scanner</objectName>
+			<brand>HP</brand>
+			<model>Pavilion</model>
+			<objectDescription>Computer with Scanner Usage Availability</objectDescription>
+		</FunctionalProperties>
+		<Non-FunctionalProperties>
+			<contextOfObject>
+				<tag>Yes</tag>
+				<description>Computer Available</description>
+			</contextOfObject>
+			<propertiesOfObject>
+				<tag>School</tag>
+				<description>Penn State Behrend</description>
+				<tag>Building</tag>
+				<description>Burke</description>
+				<tag>Floor</tag>
+				<description>Second Floor</description>
+				<tag>Room</tag>
+				<description>153</description>
+				<tag>Printer</tag>
+				<description>True</description>
+				<tag>Dual Monitor</tag>
+				<description>True</description>
+			</propertiesOfObject>
+		</Non-FunctionalProperties>
+	</Object>
+	<Service>
+	<!--NOTHING HERE BECAUSE THERE IS NO REMOTE SERVICE-->
+	</Service>
+	<searchTags>
+		<tag>Computer</tag>
+		<tag>Classroom</tag>
+		<tag>Available</tag>
+		<tag>Homework</tag>
+		<tag>Study</tag>
+		<tag>Lab</tag>
+		<tag>Projector</tag>
+	</searchTags>
+</Thing>
+

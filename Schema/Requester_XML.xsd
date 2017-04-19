@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--XML Schema for the architecture of the Requester-->
+	<xsd:element name="Requester">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="nonFunctionalProperties">
+					<xsd:complexType>
+						<xsd:sequence>
+<!--How much does the requester want to pay-->
+							<xsd:element name="cost" type="xsd:decimal"/>
+<!--Can be dynamic or static, will consist of user defined elements such as location, 
+							and other context that uniquely defines a specific object-->
+							<xsd:element name="contextOfRequester">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:sequence maxOccurs="unbounded" minOccurs="0">
+											<xsd:element name="tag" type="xsd:string"/>
+											<xsd:element name="description" type="xsd:string"/>
+										</xsd:sequence>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="constraints">
+								<xsd:complexType>
+									<xsd:sequence>
+<!--Can this service utilize other services to complete more complex requests-->
+										<xsd:element minOccurs="0" name="interoperability">
+											<xsd:complexType>
+												<xsd:sequence>
+													<xsd:element maxOccurs="unbounded" minOccurs="0" name="tag" type="xsd:string"/>
+												</xsd:sequence>
+												<xsd:attribute name="weight" type="xsd:decimal"/>
+											</xsd:complexType>
+										</xsd:element>
+										<xsd:element minOccurs="0" name="security">
+											<xsd:complexType>
+												<xsd:simpleContent>
+													<xsd:extension base="xsd:string">
+														<xsd:attribute name="weight" type="xsd:decimal"/>
+													</xsd:extension>
+												</xsd:simpleContent>
+											</xsd:complexType>
+										</xsd:element>
+<!--Can this service scale to handle multiple requests,the ability of this service to handle growth efficiently-->
+										<xsd:element minOccurs="0" name="scalability">
+											<xsd:complexType>
+												<xsd:simpleContent>
+													<xsd:extension base="xsd:string">
+														<xsd:attribute name="weight" type="xsd:decimal"/>
+													</xsd:extension>
+												</xsd:simpleContent>
+											</xsd:complexType>
+										</xsd:element>
+<!--Describes the requesters performance standards-->
+										<xsd:element minOccurs="0" name="performance">
+											<xsd:complexType>
+												<xsd:simpleContent>
+													<xsd:extension base="xsd:string">
+														<xsd:attribute name="weight" type="xsd:decimal"/>
+													</xsd:extension>
+												</xsd:simpleContent>
+											</xsd:complexType>
+										</xsd:element>
+<!--When is this service available. Days of week, hours of day-->
+										<xsd:element minOccurs="0" name="availability">
+											<xsd:complexType>
+												<xsd:simpleContent>
+													<xsd:extension base="xsd:string">
+														<xsd:attribute name="weight" type="xsd:decimal"/>
+													</xsd:extension>
+												</xsd:simpleContent>
+											</xsd:complexType>
+										</xsd:element>
+<!--How and where will the requester gain access to this service-->
+										<xsd:element minOccurs="0" name="accessibility">
+											<xsd:complexType>
+												<xsd:simpleContent>
+													<xsd:extension base="xsd:string">
+														<xsd:attribute name="weight" type="xsd:decimal"/>
+													</xsd:extension>
+												</xsd:simpleContent>
+											</xsd:complexType>
+										</xsd:element>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+<!--Search tags to help match the requester with a service that will accomplish their task-->
+				<xsd:element name="searchTags">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element maxOccurs="unbounded" minOccurs="0" name="tag"/>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
