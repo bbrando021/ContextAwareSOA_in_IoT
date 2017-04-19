@@ -81,5 +81,5 @@ http://philippe.kruchten.com/2009/07/22/the-context-of-software-development/
 http://www.ics.com/blog/internet-things-context-use-just-became-more-important
 http://sam.iai.uni-bonn.de/teaching/caaa07/FlorianKronenberg.pdf 
 http://home.sandiego.edu/~mjgigli/IoT/SOA-based%20Integration%20of%20the%20Internet%20of%20Things%20in%20Enterprise%20Services.pdf
-
+ 
 
